@@ -90,7 +90,8 @@ function display(result) {
 
 function selectInput(list) {
     inputBox_tmp.val(list.innerHTML);
-    resultsBox.innerHTML = '';
+    resultsBox.html("");
+    resultsBox.css("height","0px");
 }
 
 $(document).ready(function () {
