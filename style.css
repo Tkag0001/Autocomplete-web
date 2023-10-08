@@ -20,7 +20,7 @@ li{
   background: #fff;
 }
 .filter{
-  width: 30%;
+  width: auto;
   background: #fff;
   border-radius: 5px;
 }
@@ -62,10 +62,18 @@ button .fa-solid{
 }
 .result-box ul li{
     list-style: none;
-    border-radius: 3px;
     padding: 15px 10px;
     cursor: pointer;
 }
 .result-box ul li:hover{
     background: #e9f3ff;
+}
+button{
+  width: 5%;
+}
+
+.myChart{
+  max-width: 80%;
+  background-color: #e9f3ff;
+  margin-top: 10px;
 }
